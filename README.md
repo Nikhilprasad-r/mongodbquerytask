@@ -38,7 +38,7 @@ db.products.find({ product_material: /soft/i })
 
 db.products.find({ product_color: "indigo", product_price: 492.00 })
 
-10)Delete the products which product price value are same.
+10)Delete the products which product price value are 28.
 
-db.products.deleteMany({ product_price: { $eq: 36 } })
+db.products.deleteMany({ product_price: { $eq: 28 } })
 
